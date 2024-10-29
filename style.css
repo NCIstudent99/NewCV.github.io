@@ -1,0 +1,78 @@
+/* Background and Font Styles */
+body {
+    background-color: rgb(213, 213, 213);
+    color: rgb(58, 0, 124);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+/* Heading Styles */
+h1 {
+    color: rgb(39, 0, 71);
+    text-shadow: 1px 1px white;
+}
+
+h2, h3, h4 {
+    text-shadow: 1px 1px rgb(179, 0, 255);
+}
+
+/* Social Media Icons */
+.fa {
+    font-size: 24px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin: 0 5px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.fa-facebook {
+    background-color: #3e7bff;
+}
+
+.fa-twitter {
+    background-color: #55ACEE;
+}
+
+/* Highlight for Emphasis */
+.highlight {
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(58, 0, 124);
+}
+
+/* Card */
+.card {
+    background-color: rgba(75, 1, 106, 0.1);
+    border: none;
+    border-radius: 10px;
+    color: rgb(58, 0, 124);
+}
+
+.card-title {
+    color: rgb(39, 0, 71);
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+/* Navbar */
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h3 {
+        color: rgb(255, 0, 0);
+    }
+}
